@@ -3,9 +3,9 @@ on: push
 
 jobs:
   hello-hanu:
-  runs-on:ubuntu-latest
+    runs-on: ubuntu-latest
 
-  steps:
+    steps:
     - name: Print message
       run: echo "hello hanu"
 
