@@ -1,0 +1,17 @@
+name: hello
+on: push
+
+jobs:
+  hello-hanu:
+  runs-on:ubuntu-latest
+
+  steps:
+    - name: Print message
+      run: echo "hello hanu"
+
+  hello-maulik:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Print message
+        run: echo "hello maulik"
